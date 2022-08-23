@@ -5,13 +5,11 @@ def gimme(exercise):
     """
     trying_to_be_funny = ["meaning of life",
                           "what is actually going to make me happy",
-                          "What should I do in Bordeaux",
                           "how to spell excercize",
                           "how make the best tahini cookies", "how do zucchini grow",
                           "which country has the most pet cats per capita",
                           "is it worth it to automate this",
                           "card game recommendations", "how to put a train on a boat",
-                          "which is the best beach",
                           "what to do in your spare time"]
 
     if exercise == "1.1":
@@ -67,8 +65,6 @@ def gimme(exercise):
                     hint = "42"
     elif exercise == "what is actually going to make me happy":
                     hint = "Solving these exersises! Also, try asking the reverse question: https://www.goodreads.com/book/show/2863072-the-situation-is-hopeless-but-not-serious"
-    elif exercise == "what to do in Bordeaux":
-                    hint = "Oysters are a local specialty. Excellent seafood restaurants are just around the corner"
     elif exercise == "how to spell excercize":
                     hint = "exercise"
     elif exercise == "how make the best tahini cookies":
@@ -83,8 +79,6 @@ def gimme(exercise):
                         hint = "Play Exploding Kittens!"
     elif exercise == "how to put a train on a boat":
                         hint = "I dont know, but go and talk to Tiziano about it!"
-    elif exercise == "which is the best beach":
-                        hint = "I heard Arcachon is pretty nice!"
     elif exercise == "what to do in your spare time":
                         hint = "Get involved in organzizng ASPP 2022!"
 
